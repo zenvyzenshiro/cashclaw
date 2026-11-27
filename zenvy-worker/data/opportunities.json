@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-11-27T00:19:32.345Z",
+  "mode": "dry-run",
+  "spent_usd": 0,
+  "submitted": 0,
+  "sources": [
+    {
+      "name": "make.fun",
+      "account": "@zenvy-ch",
+      "note": "Entries already submitted under @zenvy-ch stay as-is. New submissions need the make.fun login/API key, which is valid until 19 Dec 2026, and user approval per competition.",
+      "result": {
+        "reachable": false,
+        "status": null,
+        "error": "This operation was aborted"
+      }
+    },
+    {
+      "name": "github-bounties",
+      "note": "Public issues labelled bounty. Real payout must be verified per issue (sponsor, amount, payment record) before any work.",
+      "result": {
+        "reachable": true,
+        "total_count": 5410
+      }
+    },
+    {
+      "name": "superteam-earn",
+      "note": "Listings are public at earn.superteam.fun. No public JSON API used here; a dedicated adapter needs a verified endpoint and KYC/eligibility check per bounty before work. Not auto-claimed.",
+      "result": {
+        "reachable": "not_checked_in_dry_run",
+        "reason": "no verified public JSON endpoint yet"
+      }
+    },
+    {
+      "name": "moltlaunch-cashclaw",
+      "note": "Upstream CashClaw is Base-only, needs the mltl CLI + an LLM API key + a spending wallet for AgentCash. None of those are enabled in dry-run. Integration status: not enabled.",
+      "result": {
+        "reachable": "not_enabled_in_dry_run"
+      }
+    }
+  ]
+}

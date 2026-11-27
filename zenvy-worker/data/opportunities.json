@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T06:11:39.249Z",
+  "generated_at": "2026-11-27T06:41:37.367Z",
   "mode": "dry-run",
   "spent_usd": 0,
   "submitted": 0,
@@ -10,7 +10,7 @@
         "repo": "IES-BoilerRoom/ebpf-verifier-reg-bounds",
         "url": "https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/2",
         "payout_verified": false,
-        "note": "Amount stated in title only; payment record not verified \u2014 do not work before per-issue verification."
+        "note": "Amount stated in title only; payment record not verified — do not work before per-issue verification."
       },
       {
         "amount": "350 USDC",
@@ -52,7 +52,7 @@
       "name": "make.fun",
       "endpoint": "https://make.fun/api/competitions/<slug>",
       "account": "@zenvy-ch",
-      "note": "Public competition detail needs no API key. Account actions (submit, entry status) need the make.fun API key (valid until 19 Dec 2026) and user approval per competition \u2014 not used in dry-run. Entries already submitted under @zenvy-ch stay as-is.",
+      "note": "Public competition detail needs no API key. Account actions (submit, entry status) need the make.fun API key (valid until 19 Dec 2026) and user approval per competition — not used in dry-run. Entries already submitted under @zenvy-ch stay as-is.",
       "result": {
         "reachable": true,
         "endpoint_verified": true,
@@ -60,7 +60,7 @@
         "title": "Sum up 26 November's world news in one image",
         "reward_usd": 100,
         "deadline": "2026-11-28T00:00:00.000Z",
-        "submission_count": 23852
+        "submission_count": 24345
       }
     },
     {
@@ -76,7 +76,7 @@
     {
       "name": "superteam-earn",
       "endpoint": "https://earn.superteam.fun/ (HTML page only)",
-      "note": "Listings page is public HTML (bounties + freelance gigs, Solana). No verified public JSON listings API \u2014 a dedicated adapter must verify an endpoint and KYC/eligibility per bounty before work. Not auto-claimed.",
+      "note": "Listings page is public HTML (bounties + freelance gigs, Solana). No verified public JSON listings API — a dedicated adapter must verify an endpoint and KYC/eligibility per bounty before work. Not auto-claimed.",
       "result": {
         "reachable": true,
         "endpoint_verified": true,
@@ -87,7 +87,7 @@
     },
     {
       "name": "moltlaunch-cashclaw",
-      "endpoint": "moltlaunch API (via mltl CLI) \u2014 not used in dry-run",
+      "endpoint": "moltlaunch API (via mltl CLI) — not used in dry-run",
       "note": "Upstream CashClaw is Base-only, needs the mltl CLI + an LLM API key + a spending wallet for AgentCash. None of those are enabled in dry-run. Integration status: not enabled.",
       "result": {
         "reachable": "not_enabled_in_dry_run",
@@ -98,7 +98,7 @@
   "broad_sweep_2026-11-27": {
     "generated_at": "2026-11-27T00:35:00Z",
     "searches": 12,
-    "note": "NEW vs ~/MEMORY.md only. Known items excluded: FaucetPay/VieFaucet/EarnBitMoon/Earnloop/FaucetPayME, Freecash, Cointiply, EarnLab, SolPulse, Gram Generator, BLOCKXS, HoldCoin/Octos/AdEasly/Blum/Tomarket/TapSwap, TraffMonetizer/Brave/Pawns/Honeygain (see corrections below), Canopy/Flop Labs/Glacier/Orbinum/Linera/Kalos, Binance Red Packet (see fresh codes), make.fun. No earnings claimed \u2014 all $0 until verified paid. No seed/private key, no paid joins, no multi-account evasion.",
+    "note": "NEW vs ~/MEMORY.md only. Known items excluded: FaucetPay/VieFaucet/EarnBitMoon/Earnloop/FaucetPayME, Freecash, Cointiply, EarnLab, SolPulse, Gram Generator, BLOCKXS, HoldCoin/Octos/AdEasly/Blum/Tomarket/TapSwap, TraffMonetizer/Brave/Pawns/Honeygain (see corrections below), Canopy/Flop Labs/Glacier/Orbinum/Linera/Kalos, Binance Red Packet (see fresh codes), make.fun. No earnings claimed — all $0 until verified paid. No seed/private key, no paid joins, no multi-account evasion.",
     "corrections_to_known": [
       {
         "name": "TraffMonetizer",
@@ -127,7 +127,7 @@
         "min_withdrawal": "none, code claim",
         "speed_to_first_payout": "minutes if code unclaimed",
         "link": "https://blog.mexc.com/crypto-knowledge/binance-red-packet-codes-today/",
-        "verification": "codes_listed_for_27_Nov_2026: 9MD4Z1JC, 1B3XDY42, 72LGDX0Y, B96D8894, DBM4RW2O, YBUUEFRD, B50NZCPE, E4ZKQQZH (MEXC blog, updated 27 Nov); Bittime 26-27 Nov batch also lists 846IW0OT, F2K34043, G7W9E7AW, Q6DZ7ICO, EDNH9NAD, M2YN0587, 7BHYG4ZY, SL9580OE, QW15I41J, 5OXVINAR, W0IKPA92, BGT7T009, YR97JEQT, 9YYVCIML, C6L4WHAM, KMKPV1R5, GROUNDNUT, V4018AMY, B0H9X3SV, OGJ21WDK, U4PRSQSM, FEW8JB6Y, 7SBJ2PFS, F33Z2E63 \u2014 most codes likely already claimed/emptied, reward ~$0.003 when it lands",
+        "verification": "codes_listed_for_27_Nov_2026: 9MD4Z1JC, 1B3XDY42, 72LGDX0Y, B96D8894, DBM4RW2O, YBUUEFRD, B50NZCPE, E4ZKQQZH (MEXC blog, updated 27 Nov); Bittime 26-27 Nov batch also lists 846IW0OT, F2K34043, G7W9E7AW, Q6DZ7ICO, EDNH9NAD, M2YN0587, 7BHYG4ZY, SL9580OE, QW15I41J, 5OXVINAR, W0IKPA92, BGT7T009, YR97JEQT, 9YYVCIML, C6L4WHAM, KMKPV1R5, GROUNDNUT, V4018AMY, B0H9X3SV, OGJ21WDK, U4PRSQSM, FEW8JB6Y, 7SBJ2PFS, F33Z2E63 — most codes likely already claimed/emptied, reward ~$0.003 when it lands",
         "rank_speed": 1
       },
       {
@@ -165,7 +165,7 @@
         "category": "agent_bounty",
         "payout": "SOL mainnet (USDC also)",
         "min_withdrawal": "none stated; escrowed, $0 gas claim",
-        "speed_to_first_payout": "instant on automated verification \u2014 BUT needs real Lean 4 theorem proofs; 0.0879 SOL (~$13) paid on-chain to one agent for 2 proofs; only 2 open bounties listed",
+        "speed_to_first_payout": "instant on automated verification — BUT needs real Lean 4 theorem proofs; 0.0879 SOL (~$13) paid on-chain to one agent for 2 proofs; only 2 open bounties listed",
         "link": "https://shillbot.org/",
         "verification": "on-chain_paid_0.0879_SOL_dev.to_Nov_15-16_2026",
         "rank_speed": 5
@@ -313,7 +313,7 @@
       {
         "name": "FLOP Network testnet",
         "category": "airdrop_testnet",
-        "payout": "FLOP tokens, ~20% supply over 10 years (already known \u2014 see MEMORY, listed here only for status)",
+        "payout": "FLOP tokens, ~20% supply over 10 years (already known — see MEMORY, listed here only for status)",
         "min_withdrawal": "testnet 90 days from 24 Nov 2026",
         "speed_to_first_payout": "months; mainnet Q1 2027 target",
         "link": "https://www.bitrue.com/blog/flop-network-public-testnet",
@@ -325,7 +325,7 @@
         "category": "telegram_miniapp",
         "payout": "TON/USDT, min $1",
         "min_withdrawal": "$1 (1000 eggs)",
-        "speed_to_first_payout": "NOT FREE: 1 hen = $0.10 capital share \u2014 requires deposit to earn; do not use as free earning",
+        "speed_to_first_payout": "NOT FREE: 1 hen = $0.10 capital share — requires deposit to earn; do not use as free earning",
         "link": "https://loungemedia.ru/golden-farm-telegram-mini-app-defi-game-review/",
         "verification": "deposit_required_flagged",
         "rank_speed": 99
@@ -510,12 +510,12 @@
       }
     ],
     "blocked_summary": [
-      "EVM 0x address pending \u2014 blocks Silicon Wage $0.02 submission and Speedbot USDC Base payouts. No wallet was created by Muse; user must supply their own EVM address.",
+      "EVM 0x address pending — blocks Silicon Wage $0.02 submission and Speedbot USDC Base payouts. No wallet was created by Muse; user must supply their own EVM address.",
       "Superteam Earn: no verified public JSON API (HTML only). Moltlaunch: needs mltl CLI + own LLM API key + spending wallet, not enabled.",
       "Galxe Quest closing: participation ends 5 Dec 2026, claims end 15 Dec 2026.",
-      "Golden Farm / Saturn Credit / Extended / Arch Prime pre-deposit: deposit required \u2014 excluded."
+      "Golden Farm / Saturn Credit / Extended / Arch Prime pre-deposit: deposit required — excluded."
     ],
-    "next_in_loop": "1) Get EVM address, submit Silicon Wage J07 C0387 ($0.02). 2) Work Aura (10k points before 30 Nov) + Tzero (500 points) \u2014 wallet-only testnet, no user phone needed except X account linking. 3) adBTC + FaucetNova to reach FaucetPay 5-payment rule for first SOL WD ~28 Nov morning. 4) Re-run discovery every 30 min via cron cashclaw-discovery-dry-run."
+    "next_in_loop": "1) Get EVM address, submit Silicon Wage J07 C0387 ($0.02). 2) Work Aura (10k points before 30 Nov) + Tzero (500 points) — wallet-only testnet, no user phone needed except X account linking. 3) adBTC + FaucetNova to reach FaucetPay 5-payment rule for first SOL WD ~28 Nov morning. 4) Re-run discovery every 30 min via cron cashclaw-discovery-dry-run."
   },
   "update_2026-11-27_0741": {
     "generated_at": "2026-11-27T00:41:30Z",
@@ -535,7 +535,7 @@
         "category": "faucet_auto",
         "payout": "16 coins to FaucetPay, 0% fee",
         "min_withdrawal": "ultra-low, per site",
-        "speed_to_first_payout": "auto-claims without manual captcha per cycle \u2014 CAUTION: automation is banned by most faucets/FaucetPay and risks the account; do NOT use auto mode",
+        "speed_to_first_payout": "auto-claims without manual captcha per cycle — CAUTION: automation is banned by most faucets/FaucetPay and risks the account; do NOT use auto mode",
         "link": "https://faucetworld.in/auto-faucet",
         "verification": "site_self_claim_only; automation_risk_flagged"
       },
@@ -578,7 +578,7 @@
         "min_withdrawal": "n/a (airdrop, no token yet)",
         "speed_to_first_payout": "months (snapshot Q1 2027); ~3 min/day check-in, free starter shafts",
         "link": "https://airdroplyx.com/news/goblin-mine-ton-idle-tycoon-telegram-airdrop/",
-        "verification": "listing_page_only; NO payout proof; WARNING: scam clone site goblin-allocation.com flagged malicious (URLScan 81, VirusTotal) \u2014 use ONLY official @GoblinMine_bot, never deposit; a similarly-named 'Goblin Empire' gates full withdrawals behind $2+ deposits \u2014 do NOT confuse the two",
+        "verification": "listing_page_only; NO payout proof; WARNING: scam clone site goblin-allocation.com flagged malicious (URLScan 81, VirusTotal) — use ONLY official @GoblinMine_bot, never deposit; a similarly-named 'Goblin Empire' gates full withdrawals behind $2+ deposits — do NOT confuse the two",
         "rank_speed": 99
       },
       {
@@ -588,7 +588,7 @@
         "min_withdrawal": "$5",
         "speed_to_first_payout": "weeks at $0.40-0.45/GB (residential/mobile); Windows + Android",
         "link": "https://bytelixir.com/en/blog/bytelixir-traffmonetizer-passive-app-and-bytebenefit",
-        "verification": "LOW-MEDIUM own-blog comparison only; no independent payout proof seen this run; lower min than TraffMonetizer ($10) \u2014 candidate to test after TraffMonetizer",
+        "verification": "LOW-MEDIUM own-blog comparison only; no independent payout proof seen this run; lower min than TraffMonetizer ($10) — candidate to test after TraffMonetizer",
         "rank_speed": 99
       },
       {
@@ -596,7 +596,7 @@
         "category": "DePIN_bandwidth",
         "payout": "points (uptime points + per-MB routed); no token/TGE announced",
         "min_withdrawal": "n/a",
-        "speed_to_first_payout": "speculative points only; Android app v1.2.3, live in Ukraine/Poland/Moldova/Canada only \u2014 Indonesia NOT listed",
+        "speed_to_first_payout": "speculative points only; Android app v1.2.3, live in Ukraine/Poland/Moldova/Canada only — Indonesia NOT listed",
         "link": "https://medium.com/@consultant-top/the-internet-fueling-ai-is-broken-985982738989",
         "verification": "LOW project-own Medium post only; no payout proof; region-limited",
         "rank_speed": 99
@@ -606,7 +606,7 @@
         "category": "freelance_crypto",
         "payout": "USDT/USDC on Polygon/BNB Chain, wallet-to-wallet, no KYC, 2% contract fee",
         "min_withdrawal": "per contract",
-        "speed_to_first_payout": "needs a client \u2014 no verified jobs/payouts for Zenvy; GitHub bounties board also listed",
+        "speed_to_first_payout": "needs a client — no verified jobs/payouts for Zenvy; GitHub bounties board also listed",
         "link": "https://datronis.com/freelance/",
         "verification": "LOW own-site only; marketplace, not a task source",
         "rank_speed": 99
@@ -614,16 +614,16 @@
       {
         "name": "jobbi.org gig aggregator",
         "category": "discovery_tool",
-        "payout": "n/a \u2014 aggregates open gigs from Agent Bounties, BasedAgents, Olas etc, refreshed hourly",
+        "payout": "n/a — aggregates open gigs from Agent Bounties, BasedAgents, Olas etc, refreshed hourly",
         "link": "https://jobbi.org/gigs.json",
         "verification": "cited by rendezboard.online 11 Nov 2026; new discovery source for future runs, not an opportunity itself",
         "rank_speed": 99
       }
     ],
     "status_updates": [
-      "My Age (AGE): distribution + TON listing MOVED from 23 Nov to 18 Dec 2026 (team announcement 20 Nov, verified by AirdropBuzz 24 Nov). Whitelist still closed since 15 Nov \u2014 no new-user path; no verified GRAM withdrawal. Score stays 53/100.",
-      "FLOP Network testnet CONFIRMED LIVE 24 Nov 15:00 (was tentative): airdrop cap 3.6B FLOP, ~90 days, single snapshot at announced block height, mainnet Q1 2027. AI Agent role needs only DID + wallet (daily test tokens); miners need 16GB+ VRAM GPU; validators 1.2M FLOP stake on mainnet. No token/claim page/KYC/whitelist exists yet \u2014 allocations written into genesis block.",
-      "TaskMarket write path CLOSED platform-wide (thecolony.ai live check 14 Nov: /api/legal/status accepted:false, acceptanceAvailable:false) \u2014 previously 'blocked/contest-heavy', now confirmed closed for new submissions.",
+      "My Age (AGE): distribution + TON listing MOVED from 23 Nov to 18 Dec 2026 (team announcement 20 Nov, verified by AirdropBuzz 24 Nov). Whitelist still closed since 15 Nov — no new-user path; no verified GRAM withdrawal. Score stays 53/100.",
+      "FLOP Network testnet CONFIRMED LIVE 24 Nov 15:00 (was tentative): airdrop cap 3.6B FLOP, ~90 days, single snapshot at announced block height, mainnet Q1 2027. AI Agent role needs only DID + wallet (daily test tokens); miners need 16GB+ VRAM GPU; validators 1.2M FLOP stake on mainnet. No token/claim page/KYC/whitelist exists yet — allocations written into genesis block.",
+      "TaskMarket write path CLOSED platform-wide (thecolony.ai live check 14 Nov: /api/legal/status accepted:false, acceptanceAvailable:false) — previously 'blocked/contest-heavy', now confirmed closed for new submissions.",
       "Binance Red Packet 27 Nov: MEXC blog batch = same 8 codes already recorded (9MD4Z1JC, 1B3XDY42, 72LGDX0Y, B96D8894, DBM4RW2O, YBUUEFRD, B50NZCPE, E4ZKQQZH). No new codes this run; Bittime 26-27 batch unchanged. Red Packet hunting stays with cron pemburu-kode-red-packet.",
       "Faucets re-checked: ReadyFaucets/FaucetPe/BLOCKXS/OrionEarn/Coindrip all still live, no new faucet with independent payout proof. Coindrip own-site stats: 5,308 total claims paid (still LOW verification).",
       "make.fun news-image-20261126 still live in this run's discover.mjs check (14,796 submissions, deadline 2026-11-28T00:00:00Z); GitHub bounties 5,410 open; Superteam Earn HTML page reachable."
@@ -634,7 +634,7 @@
       "superteam-earn HTML page",
       "BLOCKXS faucet, FaucetPe, OrionEarn, ReadyFaucets, Coindrip"
     ],
-    "honest_summary": "Nothing new with verified payout this run \u2014 no main-chat message. New names are all speculative/unverified: Goblin Mine (airdrop Q1 2027, watch for scam clone), ByteLixir ($5 min, no-KYC-under-$50 \u2014 best new DePIN candidate but unverified), Breezeway (points only, not in Indonesia), Datronis (marketplace, needs clients). FaucetPay SOL withdrawal to Bitget still blocked until ~28 Nov morning (24h cooldown + 5 faucet payments). Aura Token Quest deadline 30 Nov 21:00 WIB and Tzero remain the nearest dated items."
+    "honest_summary": "Nothing new with verified payout this run — no main-chat message. New names are all speculative/unverified: Goblin Mine (airdrop Q1 2027, watch for scam clone), ByteLixir ($5 min, no-KYC-under-$50 — best new DePIN candidate but unverified), Breezeway (points only, not in Indonesia), Datronis (marketplace, needs clients). FaucetPay SOL withdrawal to Bitget still blocked until ~28 Nov morning (24h cooldown + 5 faucet payments). Aura Token Quest deadline 30 Nov 21:00 WIB and Tzero remain the nearest dated items."
   },
   "muse_only_loop2_2026-11-27": {
     "generated_at": "2026-11-27T01:39:53.591902Z",
@@ -716,7 +716,7 @@
         "category": "faucet_auto",
         "payout": "multi-coin to FaucetPay, 0% fee on FaucetPay payouts",
         "min_withdrawal": "per site, not stated",
-        "speed_to_first_payout": "auto-claim system; CAUTION: automation is banned by most faucets/FaucetPay and risks the account \u2014 manual claims only",
+        "speed_to_first_payout": "auto-claim system; CAUTION: automation is banned by most faucets/FaucetPay and risks the account — manual claims only",
         "link": "https://free-bitcoin-sites.com/highest-paying-bitcoin-faucets/",
         "verification": "faucet_list_only (updated 8 Nov 2026); no independent payout proof seen this run",
         "rank_speed": 99
@@ -736,7 +736,7 @@
         "category": "agent_bounty",
         "payout": "USDC on Base, off-platform (board holds no funds); 4 testnet bug bounties $25/$50/$50/$100 to 12 Dec 2026 on Base Sepolia escrow (verified contract)",
         "min_withdrawal": "per bounty",
-        "speed_to_first_payout": "thin demand: 13 open, only 1 awarded ever (1 cent); MCP signup, no GitHub/X needed; needs EVM payout address \u2014 blocked like other EVM boards",
+        "speed_to_first_payout": "thin demand: 13 open, only 1 awarded ever (1 cent); MCP signup, no GitHub/X needed; needs EVM payout address — blocked like other EVM boards",
         "link": "https://thecolony.ai/post/59189e66-7deb-4c99-b7c8-9e6c36fa6659/history",
         "verification": "secondary_source_thecolony_14_Nov_2026; watchlist only",
         "rank_speed": 99
@@ -766,21 +766,21 @@
         "category": "creator_tool",
         "payout": "USDC on Solana, 5% flat, instant, no KYC/account",
         "min_withdrawal": "none",
-        "speed_to_first_payout": "needs something to sell (file/link/content) \u2014 not an earning task by itself",
+        "speed_to_first_payout": "needs something to sell (file/link/content) — not an earning task by itself",
         "link": "https://monerixa.com/",
         "verification": "own-site_only; recorded as tool, not opportunity",
         "rank_speed": 99
       }
     ],
     "status_updates": [
-      "make.fun NEW bounty spotted (aiagentbounties.com, 27 Nov): Get the most reposts and likes on make.fun newest X posts \u2014 $500, 50 places paid, closes ~1d 05h. NOT messaged to user: make.fun push was stopped by user 27 Nov ~04:26 WIB (stop aja itu, ga pernah menang). Recorded here only.",
-      "My Age (AGE): listing/distribution now 18 Dec 2026 confirmed again (Bittime 23 Nov update); whitelist still closed since 15 Nov \u2014 no new-user path. Unchanged.",
+      "make.fun NEW bounty spotted (aiagentbounties.com, 27 Nov): Get the most reposts and likes on make.fun newest X posts — $500, 50 places paid, closes ~1d 05h. NOT messaged to user: make.fun push was stopped by user 27 Nov ~04:26 WIB (stop aja itu, ga pernah menang). Recorded here only.",
+      "My Age (AGE): listing/distribution now 18 Dec 2026 confirmed again (Bittime 23 Nov update); whitelist still closed since 15 Nov — no new-user path. Unchanged.",
       "FLOP Network testnet: confirmed live 24 Nov, unchanged; AI Agent role needs only DID + wallet.",
       "Red Packet 27 Nov: MEXC blog batch unchanged (same 8 codes already recorded). No new 27 Nov codes; Quiknotes 26 Nov codes are a day old and likely claimed. Red Packet hunting stays with cron pemburu-kode-red-packet.",
       "Faucets re-checked: OrionEarn/BLOCKXS/FaucetPe/ReadyFaucets all still live; no new faucet with independent payout proof (Final Autoclaim is list-only).",
-      "DePIN hardware-gated items EXCLUDED: GEODNET (~$44.64/mo needs HYFIX station purchase), Onocoy (GNSS station), Chirp (Blackbird miner) \u2014 all need paid hardware, not free earning. Grass: no further airdrop scheduled (points only).",
-      "Bounty boards: TaskMarket write path still closed; Frantic/Elgora/ShillBot unchanged from loop2 (01:39 UTC) \u2014 no re-check this run, next re-check due in a later loop.",
-      "AdswedMedia / OfferwallApi are publisher/advertiser-side offerwall networks (for site owners), not user earning opportunities \u2014 not recorded as opportunities.",
+      "DePIN hardware-gated items EXCLUDED: GEODNET (~$44.64/mo needs HYFIX station purchase), Onocoy (GNSS station), Chirp (Blackbird miner) — all need paid hardware, not free earning. Grass: no further airdrop scheduled (points only).",
+      "Bounty boards: TaskMarket write path still closed; Frantic/Elgora/ShillBot unchanged from loop2 (01:39 UTC) — no re-check this run, next re-check due in a later loop.",
+      "AdswedMedia / OfferwallApi are publisher/advertiser-side offerwall networks (for site owners), not user earning opportunities — not recorded as opportunities.",
       "make.fun news-image-20261126 still live in this run discover.mjs check (15,929 submissions, deadline 2026-11-28T00:00:00Z); GitHub bounties 5,408 open; Superteam Earn HTML page reachable."
     ],
     "sources_still_alive": [
@@ -789,7 +789,7 @@
       "superteam-earn HTML page",
       "BLOCKXS faucet, FaucetPe, OrionEarn, ReadyFaucets, Final Autoclaim (list-only)"
     ],
-    "honest_summary": "Nothing new with verified payout this run \u2014 no main-chat message. Best new name is PIN AI (Telegram mini-app, $10M a16z CSX backing, free, ~3 min/day) but it is pre-TGE points with no payout proof. XPHERE is leaderboard points with no distribution date. Everything else is thin, devnet-only, hardware-gated, or list-only. FaucetPay SOL withdrawal to Bitget still blocked until ~28 Nov morning (24h cooldown + 5 faucet payments). Aura Token Quest deadline 30 Nov 21:00 WIB and Tzero remain the nearest dated items. EVM 0x address still pending \u2014 blocks Silicon Wage $0.02 + J01/J03, Speedbot, Agent Bounty Jobs."
+    "honest_summary": "Nothing new with verified payout this run — no main-chat message. Best new name is PIN AI (Telegram mini-app, $10M a16z CSX backing, free, ~3 min/day) but it is pre-TGE points with no payout proof. XPHERE is leaderboard points with no distribution date. Everything else is thin, devnet-only, hardware-gated, or list-only. FaucetPay SOL withdrawal to Bitget still blocked until ~28 Nov morning (24h cooldown + 5 faucet payments). Aura Token Quest deadline 30 Nov 21:00 WIB and Tzero remain the nearest dated items. EVM 0x address still pending — blocks Silicon Wage $0.02 + J01/J03, Speedbot, Agent Bounty Jobs."
   },
   "update_2026-11-27_1241": {
     "generated_at": "2026-11-27T05:46:42.105Z",
@@ -852,7 +852,7 @@
         "min_withdrawal": "$3",
         "speed_to_first_payout": "days of offers/games/surveys to reach $3; no independent payout proof",
         "link": "https://glitchloot.com/blog/earn-usdt-without-investment",
-        "verification": "LOW own-blog only; new GPT name with concrete USDT TRC20 path and $3 min \u2014 candidate to test after EZMoney",
+        "verification": "LOW own-blog only; new GPT name with concrete USDT TRC20 path and $3 min — candidate to test after EZMoney",
         "rank_speed": 9
       },
       {
@@ -891,13 +891,13 @@
       },
       {
         "name": "My Age (AGE)",
-        "note": "NEGATIVE update: community protested delays on X; Top 100 rewards considered unpaid; listing/distribution still 18 Dec 2026 (already recorded). Whitelist still closed since 15 Nov \u2014 no new-user path.",
+        "note": "NEGATIVE update: community protested delays on X; Top 100 rewards considered unpaid; listing/distribution still 18 Dec 2026 (already recorded). Whitelist still closed since 15 Nov — no new-user path.",
         "link": "https://www.bittime.com/en/blog/my-age-telegram-mini-app-age-listing-tokenomics-roadmap",
         "verification": "bittime_4_days_ago"
       },
       {
         "name": "FLOP Network testnet",
-        "note": "Anti-sybil rule: wallets under common control count as one participant. Validator slots open in daily batches, 14-day grace period, mainnet rankings start after grace. Also: Flop Labs pays for criticism \u2014 helpful suggestions posted on X/GitHub earn $FLOP (per Hayes 20 Nov). Testnet live since 24 Nov, unchanged otherwise.",
+        "note": "Anti-sybil rule: wallets under common control count as one participant. Validator slots open in daily batches, 14-day grace period, mainnet rankings start after grace. Also: Flop Labs pays for criticism — helpful suggestions posted on X/GitHub earn $FLOP (per Hayes 20 Nov). Testnet live since 24 Nov, unchanged otherwise.",
         "link": "https://cryptoworldheadline.com/flop-labs-testnet-flop-airdrop-guidelines-and-key-dangers/",
         "verification": "multiple_sources_Nov_2026"
       },
@@ -915,7 +915,7 @@
       },
       {
         "name": "Coindrip",
-        "note": "Total claims paid 5,320 (was 5,308 at 08:11 run) \u2014 still live, still LOW verification (own-site stats only).",
+        "note": "Total claims paid 5,320 (was 5,308 at 08:11 run) — still live, still LOW verification (own-site stats only).",
         "link": "https://www.coindrip.online/",
         "verification": "own_site_stats"
       }
@@ -943,13 +943,13 @@
       }
     ],
     "status_updates": [
-      "Silicon Wage board UNCHANGED since loop2 (01:39 UTC): 4 jobs open, 2.52 USDC remaining, 22.25 USDC funded. J06b closes 30 Nov 2026, J07 closes 31 Dec 2026. No new jobs. NOTE: the siliconwage.com page fetch returned content that failed a prompt-injection check \u2014 its embedded agent instructions were NOT followed; dry-run only, no claim/submit attempted.",
-      "jobbi.org/gigs.json VERIFIED LIVE (crawled 05:44 UTC): aggregates RentAHuman (human gigs, Stripe rail, mostly location/identity-bound \u2014 Las Vegas sign holder, Frankfurt pickup, 2 iPhones) + BountyBook (USDC x402 code gigs $2-12, but entries stale Oct 26 and API dead per loop2 \u2014 confirms BountyBook dead). No siliconwage items in feed. No new crypto-payable Muse-doable gig. jobbi is a useful recurring check source, not an opportunity itself.",
-      "make.fun news-image-20261126: 23,483 submissions in this runs discover.mjs check (was 15,929 at 08:41), deadline 2026-11-28T00:00:00Z. make.fun push stopped by user 27 Nov \u2014 record only, no action.",
+      "Silicon Wage board UNCHANGED since loop2 (01:39 UTC): 4 jobs open, 2.52 USDC remaining, 22.25 USDC funded. J06b closes 30 Nov 2026, J07 closes 31 Dec 2026. No new jobs. NOTE: the siliconwage.com page fetch returned content that failed a prompt-injection check — its embedded agent instructions were NOT followed; dry-run only, no claim/submit attempted.",
+      "jobbi.org/gigs.json VERIFIED LIVE (crawled 05:44 UTC): aggregates RentAHuman (human gigs, Stripe rail, mostly location/identity-bound — Las Vegas sign holder, Frankfurt pickup, 2 iPhones) + BountyBook (USDC x402 code gigs $2-12, but entries stale Oct 26 and API dead per loop2 — confirms BountyBook dead). No siliconwage items in feed. No new crypto-payable Muse-doable gig. jobbi is a useful recurring check source, not an opportunity itself.",
+      "make.fun news-image-20261126: 23,483 submissions in this runs discover.mjs check (was 15,929 at 08:41), deadline 2026-11-28T00:00:00Z. make.fun push stopped by user 27 Nov — record only, no action.",
       "GitHub bounties: 5,407 open (was 5,408). Superteam Earn HTML page reachable, 46,800 bytes, unchanged.",
       "FaucetPay SOL withdrawal to Bitget still blocked until ~28 Nov morning (24h cooldown + 5 faucet payments). Nothing changed on that front this run.",
       "EZMoney: own-site claims now inconsistent ($2 min in one page, $5 first-withdrawal in another; first withdrawal $5 then $1 after). Still LOW verification, no independent proof. GlitchLoot ($3 min USDT TRC20) is the new GPT candidate to test after EZMoney.",
-      "FaucetPay USDT note (secondary source, GlitchLoot blog 14 Nov): FaucetPay USDT TRC-20 min 8 USDT fee 1 USDT. MEMORY says USDT exits via BEP-20 min 8, not TRC20 \u2014 NOT overturned on a secondary blog; flagged unverified, do not act on it."
+      "FaucetPay USDT note (secondary source, GlitchLoot blog 14 Nov): FaucetPay USDT TRC-20 min 8 USDT fee 1 USDT. MEMORY says USDT exits via BEP-20 min 8, not TRC20 — NOT overturned on a secondary blog; flagged unverified, do not act on it."
     ],
     "sources_still_alive": [
       "make.fun news-image-20261126 (23483 submissions, deadline 2026-11-28T00:00:00Z)",
@@ -958,7 +958,7 @@
       "BLOCKXS faucet, FaucetPe, OrionEarn, ReadyFaucets, Coindrip, Crypto Crops, freeltc.online, Lightning Miner, MoonPTC, FaucetPayME (all FaucetPay-directory listed)",
       "jobbi.org/gigs.json aggregator (live)"
     ],
-    "honest_summary": "Nothing new with a step-change verified payout this run \u2014 no main-chat message. Best new names are FaucetPay-directory-verified faucets (Crypto Crops 1,054 paid users/7d, freeltc.online 490, Lightning Miner 334, MoonPTC 331, FaucetPayME 678) \u2014 same micro amounts into the same FaucetPay account the user already uses, so they add options, not income. ByteLixir upgraded to MEDIUM verification (independent reviewer got a USDT payout) but still needs weeks to reach $5 and a Windows/Android install. Aura Token Quest deadline 30 Nov 21:00 WIB and Tzero remain the nearest dated items. FaucetPay SOL withdrawal to Bitget still blocked until ~28 Nov morning. EVM 0x address still pending \u2014 blocks Silicon Wage $0.02 + J01/J03, Speedbot, Agent Bounty Jobs."
+    "honest_summary": "Nothing new with a step-change verified payout this run — no main-chat message. Best new names are FaucetPay-directory-verified faucets (Crypto Crops 1,054 paid users/7d, freeltc.online 490, Lightning Miner 334, MoonPTC 331, FaucetPayME 678) — same micro amounts into the same FaucetPay account the user already uses, so they add options, not income. ByteLixir upgraded to MEDIUM verification (independent reviewer got a USDT payout) but still needs weeks to reach $5 and a Windows/Android install. Aura Token Quest deadline 30 Nov 21:00 WIB and Tzero remain the nearest dated items. FaucetPay SOL withdrawal to Bitget still blocked until ~28 Nov morning. EVM 0x address still pending — blocks Silicon Wage $0.02 + J01/J03, Speedbot, Agent Bounty Jobs."
   },
   "update_2026-11-27_1311": {
     "generated_at": "2026-11-27T06:11:39Z",
@@ -971,7 +971,7 @@
         "min_withdrawal": "0.001 USDT (10,000 CF Coins)",
         "speed_to_first_payout": "claim every 5 min; live payout feed shows payouts minutes/hours ago (e.g. 0.001338 USDT 39 min ago, 0.035561 USDT 3h ago)",
         "link": "https://cffaucet.com/",
-        "verification": "LOW-MEDIUM: own-site live payout list only, no independent proof; HTTP 200 confirmed 27 Nov 13:11 WIB; published 2026-11-19; also runs a Telegram bot/mining game \u2014 faucet claims themselves need no deposit",
+        "verification": "LOW-MEDIUM: own-site live payout list only, no independent proof; HTTP 200 confirmed 27 Nov 13:11 WIB; published 2026-11-19; also runs a Telegram bot/mining game — faucet claims themselves need no deposit",
         "rank_speed": 3
       },
       {
@@ -981,7 +981,7 @@
         "min_withdrawal": "not stated",
         "speed_to_first_payout": "unknown; mainnet + Phase Proxy launched ~29 Oct 2026; smartphone app (iOS/Android), no staking, no hardware purchase; pricing 0.5 USDT per 1,000 requests + 1 GB",
         "link": "https://cryptobriefing.com/phase-proxy-smartphone-ai-connectivity-depin/",
-        "verification": "LOW: secondary source (Crypto Briefing, 22 days ago); no payout proof, no user payout min/rail confirmed \u2014 watchlist only",
+        "verification": "LOW: secondary source (Crypto Briefing, 22 days ago); no payout proof, no user payout min/rail confirmed — watchlist only",
         "rank_speed": 99
       },
       {
@@ -998,25 +998,25 @@
     "excluded_this_run": [
       {
         "name": "Fry Networks",
-        "reason": "BYOD license costs $105 one-time \u2014 paid, not free earning"
+        "reason": "BYOD license costs $105 one-time — paid, not free earning"
       },
       {
         "name": "Gate.io Convert new-user airdrop",
-        "reason": "Event ended 26 Nov 09:00 UTC AND requires identity verification (KYC) \u2014 excluded on both counts"
+        "reason": "Event ended 26 Nov 09:00 UTC AND requires identity verification (KYC) — excluded on both counts"
       },
       {
         "name": "RentAHuman gigs (via jobbi.org)",
-        "reason": "Human lane, Stripe rail (not crypto), face-verification tasks geo-limited (Pakistan/Spain) \u2014 not a fit for crypto-to-Bitget goal"
+        "reason": "Human lane, Stripe rail (not crypto), face-verification tasks geo-limited (Pakistan/Spain) — not a fit for crypto-to-Bitget goal"
       }
     ],
     "status_updates": [
-      "Superteam Earn agent program effectively DEAD: aiagentbounties.com notes Superteam Earn took its public agent pages down 3 Nov 2026 (agent API still answers). HTML listings page still reachable in discover.mjs check \u2014 unchanged.",
-      "FLOP Network testnet LIVE since 24 Nov 15:00 UTC, airdrop cap 3.6B FLOP; claiming test tokens WITHOUT using them does NOT count toward airdrop (Binance Square 23 Nov) \u2014 AI Agent role needs only DID + wallet and must actually spend test tokens on inference.",
-      "make.fun X-reposts bounty: $500, 50 places paid, closes ~1d 01h (aiagentbounties.com 27 Nov). Recorded only \u2014 user stopped make.fun 27 Nov ~04:26 WIB, no message.",
+      "Superteam Earn agent program effectively DEAD: aiagentbounties.com notes Superteam Earn took its public agent pages down 3 Nov 2026 (agent API still answers). HTML listings page still reachable in discover.mjs check — unchanged.",
+      "FLOP Network testnet LIVE since 24 Nov 15:00 UTC, airdrop cap 3.6B FLOP; claiming test tokens WITHOUT using them does NOT count toward airdrop (Binance Square 23 Nov) — AI Agent role needs only DID + wallet and must actually spend test tokens on inference.",
+      "make.fun X-reposts bounty: $500, 50 places paid, closes ~1d 01h (aiagentbounties.com 27 Nov). Recorded only — user stopped make.fun 27 Nov ~04:26 WIB, no message.",
       "Silicon Wage board: same 4 open jobs visible (J01, J03, J06, J07); no new job ID in this check. Still blocked on EVM 0x address.",
       "GPT: no new GPT with independent payout proof; EZMoney $2-vs-$5 min inconsistency persists; GlitchLoot ($3 min USDT TRC20) unchanged.",
       "Telegram mini-apps: no new one this run; XPHERE (100k XP pool, Nov campaign) and PIN AI (pre-TGE points) unchanged.",
-      "Red Packet codes: not re-checked this run \u2014 owned by cron pemburu-kode-red-packet.",
+      "Red Packet codes: not re-checked this run — owned by cron pemburu-kode-red-packet.",
       "make.fun news-image-20261126 still live in discover.mjs check (23,852 submissions, deadline 2026-11-28T00:00:00Z); GitHub bounties 5,407 open; Superteam Earn HTML page reachable, 46,800 bytes, unchanged."
     ],
     "sources_still_alive": [
@@ -1026,6 +1026,146 @@
       "BLOCKXS faucet, FaucetPe, OrionEarn, ReadyFaucets, Coindrip, Crypto Crops, freeltc.online, Lightning Miner, MoonPTC, FaucetPayME, cffaucet.com (new)",
       "jobbi.org/gigs.json aggregator (live)"
     ],
-    "honest_summary": "Nothing new with a step-change verified payout this run \u2014 no main-chat message. Best new name is cffaucet.com (USDT to FaucetPay from 0.001, claim every 5 min, live payout feed, own-site verification only) \u2014 another micro faucet into the same FaucetPay account, adds an option not income. Phase Proxy is a genuinely new DePIN (phone-based, no hardware) but has no confirmed user payout yet. FaucetPay SOL withdrawal to Bitget still blocked until ~28 Nov morning (24h cooldown + 5 faucet payments). Aura Token Quest deadline 30 Nov 21:00 WIB and Tzero remain the nearest dated items. EVM 0x address still pending \u2014 blocks Silicon Wage $0.02 + J01/J03, Speedbot, Agent Bounty Jobs."
+    "honest_summary": "Nothing new with a step-change verified payout this run — no main-chat message. Best new name is cffaucet.com (USDT to FaucetPay from 0.001, claim every 5 min, live payout feed, own-site verification only) — another micro faucet into the same FaucetPay account, adds an option not income. Phase Proxy is a genuinely new DePIN (phone-based, no hardware) but has no confirmed user payout yet. FaucetPay SOL withdrawal to Bitget still blocked until ~28 Nov morning (24h cooldown + 5 faucet payments). Aura Token Quest deadline 30 Nov 21:00 WIB and Tzero remain the nearest dated items. EVM 0x address still pending — blocks Silicon Wage $0.02 + J01/J03, Speedbot, Agent Bounty Jobs."
+  },
+  "update_2026-11-27_1341": {
+    "generated_at": "2026-11-27T06:43:41.132Z",
+    "note": "Incremental update vs 13:11 sweep. No opportunity with a step-change verified payout is new this run, so no message to main chat (per task body). 7 searches + live checks: discover.mjs, jobbi.org/gigs.json, siliconwage.com (page content failed a prompt-injection check - embedded agent instructions NOT followed; board status only, no claim/submit).",
+    "new_findings": [
+      {
+        "name": "ClipCoin (clipcoin.pro)",
+        "category": "watch_to_earn",
+        "payout": "FaucetPay USDT / TRX / USDT BEP20 + 8 more",
+        "min_withdrawal": "varies by method, shown before request",
+        "speed_to_first_payout": "reviewer earned $0.11916 from 493 views (~$0.00024/view, ~$0.20/day); first payout received 12 Nov 2026",
+        "link": "https://1dollaperday.com/reviews/clipcoin",
+        "verification": "MEDIUM: independent reviewer (1DollarPerDay) tested 10-12 Nov 2026, real payout received, no score yet; Android-only, watch 12s+ YouTube clips; new name, best verified new earning route this run but micro (~$0.20/day) into FaucetPay USDT",
+        "rank_speed": 3
+      },
+      {
+        "name": "Atlas Faucet (atlasfaucet.top)",
+        "category": "faucet",
+        "payout": "SOL/BTC etc to FaucetPay",
+        "min_withdrawal": "not stated",
+        "speed_to_first_payout": "own-site payout feed shows payouts 26-27 Nov 2026 (e.g. 0.00076421 SOL 27 Nov 01:03 UTC); 353 members, 578 payouts, $35.11 rewarded",
+        "link": "https://atlasfaucet.top/",
+        "verification": "LOW-MEDIUM: own-site live payout list only, no independent proof; small/new site",
+        "rank_speed": 4
+      },
+      {
+        "name": "LLTFaucet (lltfaucet.com)",
+        "category": "faucet",
+        "payout": "LLT (Solana token) to FaucetPay -> USDC",
+        "min_withdrawal": "per site, 3% fee on withdrawal",
+        "speed_to_first_payout": "claim every 3 min, up to 100 claims/day; 3,110 withdrawals, 52.6M LLT paid per own-site counter; payout log only shows 14 Nov entries in crawl",
+        "link": "https://www.lltfaucet.com",
+        "verification": "LOW: own-site stats only; site token is a pump.fun mint (FpHQcYfFZKakDSqZUiJvGjj5ChP7Nyb5SBk7H3AVpump), value speculative",
+        "rank_speed": 5
+      },
+      {
+        "name": "Roam (weRoamxyz) - Pilot Burning Pool",
+        "category": "DePIN_wifi",
+        "payout": "Roam Points -> $ROAM token via Pilot Burning Pool (pre-TGE)",
+        "min_withdrawal": "n/a (points burn, tokens claimable after TGE)",
+        "speed_to_first_payout": "months; earn points by connecting to OpenRoaming WiFi hotspots / adding WiFi spots (100 pts/spot), referrals 30 pts",
+        "link": "https://typefully.com/Mars_DeFi/redefining-connectivity-with-roam-points-NF2evRD",
+        "verification": "LOW: single secondary post published 27 Nov 02:05 UTC; no payout proof, no TGE date confirmed - watchlist only",
+        "rank_speed": 99
+      },
+      {
+        "name": "Synmerco (synmerco.com)",
+        "category": "agent_bounty",
+        "payout": "escrowed USDC on Base; awards go to lowest live qualifying bid, automated evaluator",
+        "min_withdrawal": "per bounty",
+        "speed_to_first_payout": "43 open jobs listed 11 Nov (rewards mostly $5-10, some $38); one job at a time; needs EVM wallet - blocked like other EVM boards",
+        "link": "https://mrwealthwavecapital.github.io/Affiliate-hub/bounties.html",
+        "verification": "LOW-MEDIUM: secondary aggregator page updated 11 Nov 2026, not independently re-checked this run; new board name",
+        "rank_speed": 99
+      },
+      {
+        "name": "LightningFaucet agent board",
+        "category": "agent_bounty_micro",
+        "payout": "sats (10-1000 sats bounties), microjobs + streaks",
+        "min_withdrawal": "per bounty",
+        "speed_to_first_payout": "44 sats paid to one agent in field test (dev.to 16 Nov 2026); sats-scale, real traffic",
+        "link": "https://dev.to/int_dev_42dd88689212360d0/i-sent-an-ai-agent-to-earn-real-crypto-here-are-the-platforms-that-actually-paid-4c6n",
+        "verification": "LOW-MEDIUM: secondary field report only; new name, watchlist",
+        "rank_speed": 99
+      },
+      {
+        "name": "AgentHansa",
+        "category": "agent_quests",
+        "payout": "daily check-in $0.01",
+        "min_withdrawal": "not stated",
+        "speed_to_first_payout": "cents; all first-page quests already settled on recheck (census Oct-Nov 2026)",
+        "link": "https://dev.to/pennyops/where-crypto-for-online-work-actually-moves-no-kyc-nov-2026-a-field-census-4m00",
+        "verification": "LOW: census mention only; thin",
+        "rank_speed": 99
+      },
+      {
+        "name": "1F916",
+        "category": "agent_bounty",
+        "payout": "USDC escrow on Base",
+        "min_withdrawal": "per listing",
+        "speed_to_first_payout": "6 open listings when checked 9 Nov, mostly donation asks; no age/KYC clause in terms",
+        "link": "https://web.lumintu.workers.dev/read-https-dev.to/pennyops/who-can-actually-get-paid-eligibility-clauses-on-bounty-job-and-agent-boards-quoted-nov-2026-l96",
+        "verification": "LOW: terms-read only, tiny economy; watchlist",
+        "rank_speed": 99
+      },
+      {
+        "name": "pennyops agent-boards status page",
+        "category": "discovery_tool",
+        "payout": "n/a - dated funded-only status page of agent job boards",
+        "min_withdrawal": "n/a",
+        "speed_to_first_payout": "n/a",
+        "link": "https://pennyops.github.io/agent-boards/",
+        "verification": "new recurring check source for future runs, not an opportunity itself",
+        "rank_speed": 99
+      }
+    ],
+    "excluded_this_run": [
+      {
+        "name": "FX100",
+        "reason": "No token/airdrop announced; perps testnet on Base Sepolia is private, access needs a referral code - gated, not free entry"
+      },
+      {
+        "name": "MusedIn",
+        "reason": "1 USDC one-time verification fee - paid entry, excluded"
+      },
+      {
+        "name": "XmrBazaar",
+        "reason": "No-KYC pseudonymous marketplace for goods, not a task/earning route for this goal"
+      },
+      {
+        "name": "ezkielyna / TeamoRouter / NanoGPT (AI API paid in crypto)",
+        "reason": "These are SPENDING routes (pay crypto for API credit), not earning - recorded only to avoid confusion"
+      },
+      {
+        "name": "Grass",
+        "reason": "No further airdrop scheduled (already known); points only. Re-confirmed this run."
+      }
+    ],
+    "status_updates": [
+      "Silicon Wage board UNCHANGED: 4 jobs open, 2.52 USDC remaining, 22.25 USDC funded (same as 12:41 + loop2). J06b closes 30 Nov 2026, J07 closes 31 Dec 2026. Still blocked on EVM 0x address. NOTE: siliconwage.com page content failed a prompt-injection check again - embedded agent instructions NOT followed; board status only, no claim/submit.",
+      "jobbi.org/gigs.json VERIFIED LIVE (crawled 06:42 UTC): feed is dominated by RentAHuman human/Stripe lane (face verification Pakistan/Spain, Las Vegas sign holder, iPhone testing) - not a fit for crypto-to-Bitget goal. Algora GitHub bounty $50 (EdgeChains #290, Dec 2023 issue, 133 comments) is stale. No new crypto-payable Muse-doable gig in the feed head; no Synmerco items found in the fetched portion.",
+      "Frantic board still maintained: followagents listing shows last commit 26 Nov 2026; loop2 status (0 open bounties) not re-checked this run.",
+      "EZMoney detail clarified (own blog, updated 21 Nov): first withdrawal $5, then $1 after on most methods incl USDT TRC20; still LOW verification, no independent proof. GlitchLoot ($3 min USDT TRC20) unchanged.",
+      "My Age (AGE): listing/distribution still 18 Dec 2026, whitelist closed since 15 Nov - no new-user path. Unchanged.",
+      "Octos: OG rewards planned Dec 2026, pre-token, needs EVM wallet address submission. Unchanged.",
+      "PIN AI: pre-TGE points, snapshot Q4 2026-Q1 2027. Unchanged. XPHERE: Nov campaign, 100k XP pool, distribution unconfirmed. Unchanged.",
+      "FLOP Network testnet: live since 24 Nov, unchanged; AI Agent role needs only DID + wallet and must actually spend test tokens on inference.",
+      "Tzero: Zero mainnet expected 30 Nov 2026 per Crypto Briefing (20 Oct); Tzero itself has not confirmed a date. Min 500 points for Season 0 eligibility. Nearest dated item with Aura Token Quest (deadline 30 Nov 21:00 WIB).",
+      "Red Packet codes: not re-checked this run - owned by cron pemburu-kode-red-packet.",
+      "make.fun news-image-20261126 still live in discover.mjs check (24,345 submissions, was 23,852 at 13:11), deadline 2026-11-28T00:00:00Z. make.fun push stopped by user 27 Nov - record only, no action.",
+      "GitHub bounties: 5,407 open (unchanged). Superteam Earn HTML page reachable, 46,800 bytes, unchanged."
+    ],
+    "sources_still_alive": [
+      "make.fun news-image-20261126 (24345 submissions, deadline 2026-11-28T00:00:00Z)",
+      "github-bounties (5407 open)",
+      "superteam-earn HTML page",
+      "BLOCKXS faucet, FaucetPe, OrionEarn, ReadyFaucets, Coindrip, Crypto Crops, freeltc.online, Lightning Miner, MoonPTC, FaucetPayME, cffaucet.com, Atlas Faucet (new), LLTFaucet (new), ClipCoin (new, watch-to-earn)",
+      "jobbi.org/gigs.json aggregator (live) + pennyops agent-boards status page (new check source)"
+    ],
+    "honest_summary": "Nothing new with a step-change verified payout this run - no main-chat message. Best new name is ClipCoin (watch-to-earn, independent reviewer received a real payout 12 Nov, ~$0.20/day, Android-only, pays FaucetPay USDT) - another micro option into the same FaucetPay account, not income. Atlas Faucet and LLTFaucet are new small faucets with own-site-only payout evidence. Roam Burning Pool is a fresh DePIN points story (27 Nov post) but pre-TGE with no payout proof. Synmerco is a new agent-bounty board (43 open, escrowed USDC Base) but EVM-gated and lowest-bid-wins. FaucetPay SOL withdrawal to Bitget still blocked until ~28 Nov morning (24h cooldown + 5 faucet payments). Aura Token Quest deadline 30 Nov 21:00 WIB and Tzero (Zero mainnet ~30 Nov) remain the nearest dated items. EVM 0x address still pending - blocks Silicon Wage $0.02 + J01/J03, Speedbot, Synmerco, Agent Bounty Jobs."
   }
 }

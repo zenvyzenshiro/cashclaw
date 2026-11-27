@@ -342,5 +342,179 @@
       }
     ],
     "honest_summary": "Nothing here pays meaningful money in 10 minutes from zero. Fastest real cash is faucet micro-payments to FaucetPay (instant, cents) and Red Packet codes (minutes, ~$0.003, mostly claimed). FaucetPay SOL withdrawal to Bitget is blocked until ~28 Nov morning by the 24h cooldown + 5-payment rule. Agent bounties that actually paid (ShillBot $13 SOL, Frantic $7 USDC) need either Lean 4 skill or fast slot claims. The whole agent-bounty market paid ~$389 in 30 days across all boards (Nov 2026 census). Quest/airdrop/testnet payouts are weeks-months and mostly points/speculative."
+  },
+  "muse_only_loop_2026-11-27": {
+    "generated_at": "2026-11-27T00:43:00Z",
+    "note": "Coordinator synthesis of 3 parallel subagents. Earnings $0 until verified paid. No spending, no fake identities, no multi-account evasion. make.fun 27 Nov entry skipped (already being built by another agent, repo exists).",
+    "best_option_chosen": {
+      "name": "Silicon Wage J07 C0387 BANCO DAVIBANK",
+      "why": "Only verified auto-pay answer among 4 agent-bounty platforms checked. Public job, no account/KYC/phone, submission needs only an EVM wallet address (no signature, no payment). LEI 5493003NMRIY0Z3WLF37, BANCO DAVIBANK S.A., CO, ISSUED, exact name+country match.",
+      "reward_usd": 0.02,
+      "status": "blocked_missing_evm_address",
+      "submission_payload": "~/workspace/cashclaw/silicon-wage-j06b/data/submission-j07-c0387.json",
+      "evidence": "https://search.gleif.org/#/record/5493003NMRIY0Z3WLF37"
+    },
+    "attempted": {
+      "silicon_wage_J06b": {
+        "open_items": 21,
+        "auto_pay_answers": 0,
+        "note": "All items already paid NOT_A_COMPANY; none passed checker (exact name + country). R31 MOLMED renamed to AGC Biologics S.p.A."
+      },
+      "silicon_wage_J07": {
+        "open_items": 6,
+        "verified_answers": 1,
+        "answer": "C0387 BANCO DAVIBANK -> LEI 5493003NMRIY0Z3WLF37, $0.02 auto-pay, worst case operator review 48h"
+      },
+      "frantic": {
+        "status": "blocked",
+        "reason": "Only 1 open bounty (#97, $10), a rebate: must fund a bounty >=$10 first; claim needs agent token + verified email/GitHub"
+      },
+      "elgora": {
+        "status": "blocked",
+        "reason": "Only 1 mainnet bounty open (#12, $32), 'fund a bounty or refer a poster', not a solvable task; solver needs CLI + ETH gas"
+      },
+      "taskmarket": {
+        "status": "blocked",
+        "reason": "Open tasks mostly $0.01 code contests, paid in OUSD on Tempo (no Tempo/OUSD route on file); other contests 50-77 submissions"
+      },
+      "shillbot": {
+        "status": "skipped",
+        "reason": "Needs real Lean 4 theorem proofs"
+      }
+    },
+    "new_gpt_faucet_boards_top8": [
+      {
+        "name": "adBTC",
+        "category": "PTC",
+        "payout": "BTC to FaucetPay",
+        "min_withdrawal": "100 satoshi via FaucetPay",
+        "verification": "MEDIUM-HIGH independent: 12 payouts to FaucetPay, 654 users paid in 7 days, since 2016",
+        "link": "https://adbtc.top"
+      },
+      {
+        "name": "FaucetNova",
+        "category": "faucet",
+        "payout": "SOL/USDT/BTC/TRX etc to FaucetPay",
+        "min_withdrawal": "none on site",
+        "verification": "LOW own-site claim only",
+        "link": "https://faucetnova.com/"
+      },
+      {
+        "name": "Coindrip",
+        "category": "faucet",
+        "payout": "SOL/USDT/TRX/DOGE/LTC",
+        "min_withdrawal": "none, $0.0005/claim, 1 min cooldown",
+        "verification": "LOW own-site only, page failed to open on verification",
+        "link": "https://www.coindrip.online/"
+      },
+      {
+        "name": "FireFaucet",
+        "category": "auto-faucet",
+        "payout": "BTC/ETH/USDT/BNB/LTC/DOGE to wallet/FaucetPay",
+        "min_withdrawal": "~$2.50",
+        "verification": "MEDIUM independent review Oct 2026, since 2018",
+        "link": "https://firefaucet.win"
+      },
+      {
+        "name": "Speedbot",
+        "category": "bounty board",
+        "payout": "USDC on Base",
+        "min_withdrawal": "none, per-task $0.05-$1",
+        "verification": "MEDIUM-HIGH independent + on-chain wallet 0x023f... 6 USDC transfers Oct 2026",
+        "link": "https://speedbot.dev",
+        "blocker": "Needs EVM address (pending)"
+      },
+      {
+        "name": "BountyWall",
+        "category": "offerwall",
+        "payout": "SOL to own wallet",
+        "min_withdrawal": "not published",
+        "verification": "LOW own-site only",
+        "link": "https://bountywall.com"
+      },
+      {
+        "name": "FaucetWorld",
+        "category": "auto-faucet",
+        "payout": "SOL to FaucetPay",
+        "min_withdrawal": "$1 to FaucetPay",
+        "verification": "LOW own-site only",
+        "link": "https://faucetworld.in/faucet-list/sol"
+      },
+      {
+        "name": "LootVault",
+        "category": "Telegram mini-app",
+        "payout": "LOOT token on TON",
+        "min_withdrawal": "10000 LOOT, 5% fee",
+        "verification": "MEDIUM-LOW reviewer screenshots only; 25% holdback required",
+        "link": "https://www.lodpost.com/loot-vault-telegram-bot-review-2026-is-it-legit-my-mining-experience-and-withdraw-proof-29732"
+      }
+    ],
+    "new_airdrops_testnets_top8": [
+      {
+        "name": "Aura Protocol",
+        "chain": "LitVM LiteForge testnet",
+        "reward": "150M AURA = 30% supply confirmed in docs; Bonus Epoch live, 15M",
+        "deadline": "Token Quest 30 Nov 2026 21:00 WIB",
+        "requirement": ">=10000 points + >=1 Aura dApp tx + anti-bot + X account",
+        "link": "https://99airdrops.com/airdrops/aura-protocol/"
+      },
+      {
+        "name": "Tzero",
+        "chain": "Base Sepolia testnet",
+        "reward": "11% supply $T0 (5% Season 0 + 6% next), min 500 points, cap 0.1%/wallet",
+        "deadline": "Snapshot TBA, announced 7 days prior; Zero mainnet 30 Nov 2026",
+        "link": "https://airdrops.io/tzero/"
+      },
+      {
+        "name": "Xian",
+        "chain": "Xian Network",
+        "reward": "XIAN claim live for developers, amount not announced",
+        "deadline": "none",
+        "requirement": "Xian Wallet + GitHub account",
+        "link": "https://www.airdropstop.com/airdrops/xian"
+      },
+      {
+        "name": "VIBEVIBE",
+        "chain": "Robinhood Chain",
+        "reward": "Testnet 5% (50M) ended; SPARK holders 25% snapshot not yet done; Battlegrounds S1 1% ends ~30 Nov 2026",
+        "deadline": "~30 Nov 2026",
+        "link": "https://www.bitrue.com/blog/vibe-vibe-airdrop-testnet-on-robinhood"
+      },
+      {
+        "name": "GenLayer",
+        "chain": "GenLayer testnet Bradbury",
+        "reward": "Season 1 confirmed (snapshot 25 Oct); Season 2 open but points NOT guaranteed to convert",
+        "deadline": "TGE unconfirmed as of 24 Nov",
+        "link": "https://99airdrops.com/airdrops/genlayer/"
+      },
+      {
+        "name": "RocX",
+        "chain": "Base Sepolia",
+        "reward": "RocX OG SBT for 1100 wallets (min 10 valid PoA links), no token announced",
+        "deadline": "none published",
+        "link": "https://airdrops.io/rocx/"
+      },
+      {
+        "name": "Minehood",
+        "chain": "Robinhood Chain",
+        "reward": "4444 Miner NFT whitelist (speculative)",
+        "deadline": "31 Dec 2026",
+        "link": "https://freecoins24.io/airdrops/minehood/"
+      },
+      {
+        "name": "Arch Prime",
+        "chain": "Arch Network / Bitcoin",
+        "reward": "Waitlist only, no token/TGE announced (speculative)",
+        "deadline": "none",
+        "link": "https://dropit.space/en/airdrop/arch-prime"
+      }
+    ],
+    "blocked_summary": [
+      "EVM 0x address pending — blocks Silicon Wage $0.02 submission and Speedbot USDC Base payouts. No wallet was created by Muse; user must supply their own EVM address.",
+      "Superteam Earn: no verified public JSON API (HTML only). Moltlaunch: needs mltl CLI + own LLM API key + spending wallet, not enabled.",
+      "Galxe Quest closing: participation ends 5 Dec 2026, claims end 15 Dec 2026.",
+      "Golden Farm / Saturn Credit / Extended / Arch Prime pre-deposit: deposit required — excluded."
+    ],
+    "next_in_loop": "1) Get EVM address, submit Silicon Wage J07 C0387 ($0.02). 2) Work Aura (10k points before 30 Nov) + Tzero (500 points) — wallet-only testnet, no user phone needed except X account linking. 3) adBTC + FaucetNova to reach FaucetPay 5-payment rule for first SOL WD ~28 Nov morning. 4) Re-run discovery every 30 min via cron cashclaw-discovery-dry-run."
   }
 }

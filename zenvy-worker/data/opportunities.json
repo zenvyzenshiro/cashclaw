@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T00:43:45.855Z",
+  "generated_at": "2026-11-27T01:11:45.341Z",
   "mode": "dry-run",
   "spent_usd": 0,
   "submitted": 0,
@@ -60,7 +60,7 @@
         "title": "Sum up 26 November's world news in one image",
         "reward_usd": 100,
         "deadline": "2026-11-28T00:00:00.000Z",
-        "submission_count": 13175
+        "submission_count": 14796
       }
     },
     {
@@ -70,7 +70,7 @@
       "result": {
         "reachable": true,
         "endpoint_verified": true,
-        "total_count": 5410
+        "total_count": 5408
       }
     },
     {
@@ -566,5 +566,74 @@
       "FaucetPe, OrionEarn (46 sats paid 11 Nov)"
     ],
     "honest_summary": "Nothing new with verified payout this run. ReadyFaucets is a real new faucet option but unverified and micro ($0.00015/claim). FaucetPay SOL withdrawal to Bitget still blocked until ~28 Nov morning (24h cooldown + 5 faucet payments)."
+  },
+  "update_2026-11-27_0811": {
+    "generated_at": "2026-11-27T01:11:45Z",
+    "note": "Incremental update vs 07:41 sweep. No opportunity with independently verified payout is new this run, so no message to main chat (per task body). 7 searches across faucets / GPT / Telegram mini-apps / airdrops-testnets / DePIN / bounty boards / Red Packet codes.",
+    "new_findings": [
+      {
+        "name": "Goblin Mine ($GOBLIN) Telegram mini-app",
+        "category": "telegram_miniapp",
+        "payout": "$GOBLIN token, 60% supply to active managers + verified Tonkeeper holders; snapshot Q1 2027; Deep Shaft Season 1 live",
+        "min_withdrawal": "n/a (airdrop, no token yet)",
+        "speed_to_first_payout": "months (snapshot Q1 2027); ~3 min/day check-in, free starter shafts",
+        "link": "https://airdroplyx.com/news/goblin-mine-ton-idle-tycoon-telegram-airdrop/",
+        "verification": "listing_page_only; NO payout proof; WARNING: scam clone site goblin-allocation.com flagged malicious (URLScan 81, VirusTotal) — use ONLY official @GoblinMine_bot, never deposit; a similarly-named 'Goblin Empire' gates full withdrawals behind $2+ deposits — do NOT confuse the two",
+        "rank_speed": 99
+      },
+      {
+        "name": "ByteLixir (bandwidth sharing)",
+        "category": "DePIN_bandwidth",
+        "payout": "crypto, min $5; no KYC for withdrawals up to $50 each",
+        "min_withdrawal": "$5",
+        "speed_to_first_payout": "weeks at $0.40-0.45/GB (residential/mobile); Windows + Android",
+        "link": "https://bytelixir.com/en/blog/bytelixir-traffmonetizer-passive-app-and-bytebenefit",
+        "verification": "LOW-MEDIUM own-blog comparison only; no independent payout proof seen this run; lower min than TraffMonetizer ($10) — candidate to test after TraffMonetizer",
+        "rank_speed": 99
+      },
+      {
+        "name": "Breezeway (DePIN, Season 0)",
+        "category": "DePIN_bandwidth",
+        "payout": "points (uptime points + per-MB routed); no token/TGE announced",
+        "min_withdrawal": "n/a",
+        "speed_to_first_payout": "speculative points only; Android app v1.2.3, live in Ukraine/Poland/Moldova/Canada only — Indonesia NOT listed",
+        "link": "https://medium.com/@consultant-top/the-internet-fueling-ai-is-broken-985982738989",
+        "verification": "LOW project-own Medium post only; no payout proof; region-limited",
+        "rank_speed": 99
+      },
+      {
+        "name": "Datronis (freelance crypto)",
+        "category": "freelance_crypto",
+        "payout": "USDT/USDC on Polygon/BNB Chain, wallet-to-wallet, no KYC, 2% contract fee",
+        "min_withdrawal": "per contract",
+        "speed_to_first_payout": "needs a client — no verified jobs/payouts for Zenvy; GitHub bounties board also listed",
+        "link": "https://datronis.com/freelance/",
+        "verification": "LOW own-site only; marketplace, not a task source",
+        "rank_speed": 99
+      },
+      {
+        "name": "jobbi.org gig aggregator",
+        "category": "discovery_tool",
+        "payout": "n/a — aggregates open gigs from Agent Bounties, BasedAgents, Olas etc, refreshed hourly",
+        "link": "https://jobbi.org/gigs.json",
+        "verification": "cited by rendezboard.online 11 Nov 2026; new discovery source for future runs, not an opportunity itself",
+        "rank_speed": 99
+      }
+    ],
+    "status_updates": [
+      "My Age (AGE): distribution + TON listing MOVED from 23 Nov to 18 Dec 2026 (team announcement 20 Nov, verified by AirdropBuzz 24 Nov). Whitelist still closed since 15 Nov — no new-user path; no verified GRAM withdrawal. Score stays 53/100.",
+      "FLOP Network testnet CONFIRMED LIVE 24 Nov 15:00 (was tentative): airdrop cap 3.6B FLOP, ~90 days, single snapshot at announced block height, mainnet Q1 2027. AI Agent role needs only DID + wallet (daily test tokens); miners need 16GB+ VRAM GPU; validators 1.2M FLOP stake on mainnet. No token/claim page/KYC/whitelist exists yet — allocations written into genesis block.",
+      "TaskMarket write path CLOSED platform-wide (thecolony.ai live check 14 Nov: /api/legal/status accepted:false, acceptanceAvailable:false) — previously 'blocked/contest-heavy', now confirmed closed for new submissions.",
+      "Binance Red Packet 27 Nov: MEXC blog batch = same 8 codes already recorded (9MD4Z1JC, 1B3XDY42, 72LGDX0Y, B96D8894, DBM4RW2O, YBUUEFRD, B50NZCPE, E4ZKQQZH). No new codes this run; Bittime 26-27 batch unchanged. Red Packet hunting stays with cron pemburu-kode-red-packet.",
+      "Faucets re-checked: ReadyFaucets/FaucetPe/BLOCKXS/OrionEarn/Coindrip all still live, no new faucet with independent payout proof. Coindrip own-site stats: 5,308 total claims paid (still LOW verification).",
+      "make.fun news-image-20261126 still live in this run's discover.mjs check (13,175 submissions, deadline 2026-11-28T00:00:00Z); GitHub bounties 5,410 open; Superteam Earn HTML page reachable."
+    ],
+    "sources_still_alive": [
+      "make.fun news-image-20261126 (13175 submissions, deadline 2026-11-28T00:00:00Z)",
+      "github-bounties (5410 open)",
+      "superteam-earn HTML page",
+      "BLOCKXS faucet, FaucetPe, OrionEarn, ReadyFaucets, Coindrip"
+    ],
+    "honest_summary": "Nothing new with verified payout this run — no main-chat message. New names are all speculative/unverified: Goblin Mine (airdrop Q1 2027, watch for scam clone), ByteLixir ($5 min, no-KYC-under-$50 — best new DePIN candidate but unverified), Breezeway (points only, not in Indonesia), Datronis (marketplace, needs clients). FaucetPay SOL withdrawal to Bitget still blocked until ~28 Nov morning (24h cooldown + 5 faucet payments). Aura Token Quest deadline 30 Nov 21:00 WIB and Tzero remain the nearest dated items."
   }
 }

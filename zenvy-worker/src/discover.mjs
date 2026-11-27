@@ -10,9 +10,20 @@
 // - Superteam Earn: only the public HTML page https://earn.superteam.fun/
 //   is verified. No public JSON listings API was found — do not invent one.
 // - GitHub: https://api.github.com/search/issues?q=label:bounty+state:open
-import { writeFile, mkdir } from "node:fs/promises";
+import { writeFile, mkdir, readFile } from "node:fs/promises";
+
+// Preserve prior run data (broad sweeps, verified samples) — merge, never wipe.
+// Bug found 2026-11-27 07:41 WIB: plain writeFile destroyed the broad_sweep
+// section every run. Now: read existing file first, keep its extra keys.
+let prev = {};
+try {
+  prev = JSON.parse(await readFile(new URL("../data/opportunities.json", import.meta.url), "utf8"));
+} catch {
+  prev = {};
+}
 
 const out = {
+  ...prev,
   generated_at: new Date().toISOString(),
   mode: "dry-run",
   spent_usd: 0,

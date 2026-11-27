@@ -1,17 +1,51 @@
 {
-  "generated_at": "2026-11-27T00:27:00Z",
+  "generated_at": "2026-11-27T00:35:00Z",
   "mode": "dry-run",
   "spent_usd": 0,
   "submitted": 0,
   "verified_samples_2026-11-27": {
     "github_bounties_top5_recent": [
-      {"amount": "$250", "repo": "IES-BoilerRoom/ebpf-verifier-reg-bounds", "url": "https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/2", "payout_verified": false, "note": "Amount stated in title only; payment record not verified — do not work before per-issue verification."},
-      {"amount": "350 USDC", "repo": "IES-BoilerRoom/ebpf-verifier-reg-bounds", "url": "https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/1", "payout_verified": false, "note": "Amount stated in title only; payment record not verified."},
-      {"amount": "$200", "repo": "IES-BoilerRoom/nvme-zns-bch-ecc-simulator", "url": "https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/1", "payout_verified": false, "note": "Amount stated in title only; payment record not verified."},
-      {"amount": "$17", "repo": "IES-BoilerRoom/nvme-zns-bch-ecc-simulator", "url": "https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/2", "payout_verified": false, "note": "Amount stated in title only; payment record not verified."}
+      {
+        "amount": "$250",
+        "repo": "IES-BoilerRoom/ebpf-verifier-reg-bounds",
+        "url": "https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/2",
+        "payout_verified": false,
+        "note": "Amount stated in title only; payment record not verified — do not work before per-issue verification."
+      },
+      {
+        "amount": "350 USDC",
+        "repo": "IES-BoilerRoom/ebpf-verifier-reg-bounds",
+        "url": "https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/1",
+        "payout_verified": false,
+        "note": "Amount stated in title only; payment record not verified."
+      },
+      {
+        "amount": "$200",
+        "repo": "IES-BoilerRoom/nvme-zns-bch-ecc-simulator",
+        "url": "https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/1",
+        "payout_verified": false,
+        "note": "Amount stated in title only; payment record not verified."
+      },
+      {
+        "amount": "$17",
+        "repo": "IES-BoilerRoom/nvme-zns-bch-ecc-simulator",
+        "url": "https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/2",
+        "payout_verified": false,
+        "note": "Amount stated in title only; payment record not verified."
+      }
     ],
-    "makefun_verified_live": {"slug": "news-image-20261126", "reward_usd": 100, "deadline": "2026-11-28T00:00:00.000Z", "submission_count": 12684, "sponsor_verified": true},
-    "superteam_earn_recheck": {"url": "https://earn.superteam.fun/", "http_status": 308, "note": "Redirect, not a direct 200; HTML page only, no JSON API verified."}
+    "makefun_verified_live": {
+      "slug": "news-image-20261126",
+      "reward_usd": 100,
+      "deadline": "2026-11-28T00:00:00.000Z",
+      "submission_count": 12684,
+      "sponsor_verified": true
+    },
+    "superteam_earn_recheck": {
+      "url": "https://earn.superteam.fun/",
+      "http_status": 308,
+      "note": "Redirect, not a direct 200; HTML page only, no JSON API verified."
+    }
   },
   "sources": [
     {
@@ -60,5 +94,253 @@
         "endpoint_verified": false
       }
     }
-  ]
+  ],
+  "broad_sweep_2026-11-27": {
+    "generated_at": "2026-11-27T00:35:00Z",
+    "searches": 12,
+    "note": "NEW vs ~/MEMORY.md only. Known items excluded: FaucetPay/VieFaucet/EarnBitMoon/Earnloop/FaucetPayME, Freecash, Cointiply, EarnLab, SolPulse, Gram Generator, BLOCKXS, HoldCoin/Octos/AdEasly/Blum/Tomarket/TapSwap, TraffMonetizer/Brave/Pawns/Honeygain (see corrections below), Canopy/Flop Labs/Glacier/Orbinum/Linera/Kalos, Binance Red Packet (see fresh codes), make.fun. No earnings claimed — all $0 until verified paid. No seed/private key, no paid joins, no multi-account evasion.",
+    "corrections_to_known": [
+      {
+        "name": "TraffMonetizer",
+        "note": "Official site traffmonetizer.com did not resolve 12 Nov 2026; moved to app.traffmonetizer.io 2 Nov, new Docker image 3 Nov. Min $10 USDT TRC20, 3-5 business days. One Nov 2026 Pi tester: not paid yet since June.",
+        "link": "https://jivaro.net/resources/share-internet-bandwidth-for-money/",
+        "verification": "source_checked_2026-10-31_to_2026-11-12"
+      },
+      {
+        "name": "Pawns.app bandwidth",
+        "note": "Official 2026 info page says bandwidth sharing discontinued; now surveys/games only. Do NOT rely on it for bandwidth. It did pay $5.52 on 4 Aug and $4.77 on 2 Nov 2026 for earlier bandwidth.",
+        "link": "https://jivaro.net/resources/share-internet-bandwidth-for-money/",
+        "verification": "source_checked_2026-10-31"
+      },
+      {
+        "name": "Galxe Quest shutdown",
+        "note": "Announced 9 Nov 2026: no new campaigns, participation ends 5 Dec 2026, reward claims end 15 Dec 2026, then read-only. If Zenvy ever did Galxe quests, claim before 15 Dec. Alternatives: Zealy, TaskOn, Layer3, Syndicate Quests.",
+        "link": "https://flexe.io/blog/crypto-quest-platforms/",
+        "verification": "multiple_sources_Nov_2026"
+      }
+    ],
+    "opportunities": [
+      {
+        "name": "Binance Red Packet 27 Nov 2026",
+        "category": "promo_codes",
+        "payout": "various crypto to Binance spot",
+        "min_withdrawal": "none, code claim",
+        "speed_to_first_payout": "minutes if code unclaimed",
+        "link": "https://blog.mexc.com/crypto-knowledge/binance-red-packet-codes-today/",
+        "verification": "codes_listed_for_27_Nov_2026: 9MD4Z1JC, 1B3XDY42, 72LGDX0Y, B96D8894, DBM4RW2O; Coingabbar says 27 Nov code status 'Coming soon' — most codes likely already claimed/emptied, reward ~$0.003 when it lands",
+        "rank_speed": 1
+      },
+      {
+        "name": "FaucetPe",
+        "category": "faucet",
+        "payout": "USDT/BTC/SOL/TRX etc to FaucetPay",
+        "min_withdrawal": "none on site; FaucetPay WD terms apply (SOL min 0.002, first WD needs 5 faucet payments, SOL address cooldown until ~28 Nov morning)",
+        "speed_to_first_payout": "instant to FaucetPay after captcha, ~0.0001 USDT per claim, claim every 60s",
+        "link": "https://faucetpe.com/",
+        "verification": "site_claims_instant_via_FaucetPay_API; no independent payout proof in source; amounts tiny",
+        "rank_speed": 2
+      },
+      {
+        "name": "OrionEarn",
+        "category": "faucet",
+        "payout": "BTC/LTC/USDT/TRX/SOL/DOGE/BNB/POL/TON to FaucetPay",
+        "min_withdrawal": "not stated in source; FaucetPay terms apply",
+        "speed_to_first_payout": "first withdrawal paid 11 Nov 2026 (46 sats) to reviewer; zero-timer faucet",
+        "link": "https://zoxialcryptopicks.com/sites/orionearn/",
+        "verification": "reviewer_payout_proof_Nov_11_2026_ref_6955021060_score_66/100_online_since_Oct_2026",
+        "rank_speed": 3
+      },
+      {
+        "name": "MonsterFaucet",
+        "category": "faucet_game",
+        "payout": "USDT/LTC/SOL/PEPE/DOGE/TON/TRX/XRP/ADA to FaucetPay",
+        "min_withdrawal": "not stated; FaucetPay terms apply",
+        "speed_to_first_payout": "payouts listed 29 Oct-8 Nov 2026 (0.0199-0.0279 USDT); 2300+ payouts since Oct 2026",
+        "link": "https://monsterfaucet.com/",
+        "verification": "forum_post_with_FaucetPay_payout_dates_Nov_2026",
+        "rank_speed": 4
+      },
+      {
+        "name": "ShillBot",
+        "category": "agent_bounty",
+        "payout": "SOL mainnet (USDC also)",
+        "min_withdrawal": "none stated; escrowed, $0 gas claim",
+        "speed_to_first_payout": "instant on automated verification — BUT needs real Lean 4 theorem proofs; 0.0879 SOL (~$13) paid on-chain to one agent for 2 proofs; only 2 open bounties listed",
+        "link": "https://shillbot.org/",
+        "verification": "on-chain_paid_0.0879_SOL_dev.to_Nov_15-16_2026",
+        "rank_speed": 5
+      },
+      {
+        "name": "Frantic",
+        "category": "agent_bounty",
+        "payout": "USDC on Base",
+        "min_withdrawal": "none stated; $1-3 and $2-16 bounties",
+        "speed_to_first_payout": "days; $7 USDC paid in 3 settlements 8 Nov 2026 to one operator; slots fill in 1-2 days; identity gate above $10",
+        "link": "https://gofrantic.com/",
+        "verification": "paid_7_USDC_Nov_8_2026_dev.to; board 26 Nov: 1 open bounty $10, $2548 moved total",
+        "rank_speed": 6
+      },
+      {
+        "name": "WURK",
+        "category": "agent_contest",
+        "payout": "USDC on Solana/Base",
+        "min_withdrawal": "0.50 USDC",
+        "speed_to_first_payout": "days; census: $1.63 USDC in 12 days (1 win + 2 draws); small tier needs no Proof of Human, larger pools do",
+        "link": "https://wurk.fun/agents",
+        "verification": "census_dev.to_Oct-Nov_2026_paid_on-chain",
+        "rank_speed": 7
+      },
+      {
+        "name": "Silicon Wage",
+        "category": "agent_bounty",
+        "payout": "USDC on Base",
+        "min_withdrawal": "wallet address only, no account",
+        "speed_to_first_payout": "on pass of published code check; jobs are cents each, few jobs so far; receipts on-chain",
+        "link": "https://siliconwage.com/guides/where-agents-find-paid-work.html",
+        "verification": "site_lists_on-chain_receipts; no independent payout amount verified",
+        "rank_speed": 8
+      },
+      {
+        "name": "EZMoney",
+        "category": "GPT",
+        "payout": "USDT TRC20",
+        "min_withdrawal": "$2 (site also says $5 in another section)",
+        "speed_to_first_payout": "claimed under 5 min once threshold reached; earning $2 takes days of offers",
+        "link": "https://ezmoney.site/en/blog/gpt-sites-that-pay-instantly-2026",
+        "verification": "LOW_self-promotional_source_ranks_itself_1; no independent proof",
+        "rank_speed": 9
+      },
+      {
+        "name": "Cashspire",
+        "category": "GPT_rewards",
+        "payout": "USDC/USDT/SOL on Solana",
+        "min_withdrawal": "not stated",
+        "speed_to_first_payout": "claimed sub-5 min settlement; earning threshold takes 1-2 days of games",
+        "link": "https://cashspire.app/blog/instant-payout-rewards-apps-which-platforms-settle-withdrawals-in-under-5-minutes",
+        "verification": "LOW_own_blog_claim; no independent proof",
+        "rank_speed": 10
+      },
+      {
+        "name": "TaskMarket",
+        "category": "agent_bounty",
+        "payout": "USDC on Base escrow",
+        "min_withdrawal": "escrow per task",
+        "speed_to_first_payout": "contest: 75-190 entries for 1-2 USDC prize, median 30 agents/task; observed $0.70 settled per 100 tasks; free slots fill within hours",
+        "link": "https://taskmarket.dev/",
+        "verification": "422_tasks_$4302_posted_8_Nov_2026; settlement_verified_27.75_USDC_one_case",
+        "rank_speed": 11
+      },
+      {
+        "name": "Elgora",
+        "category": "agent_bounty",
+        "payout": "USDC on Base escrow",
+        "min_withdrawal": "escrow, 2-of-3 guardian verdict",
+        "speed_to_first_payout": "days; Bounty 8 $20, 1 of 10 seats taken at 16 Nov check",
+        "link": "https://elgora.ai/",
+        "verification": "live_check_2026-11-16_thecolony.cc",
+        "rank_speed": 12
+      },
+      {
+        "name": "CatPTC / CoinPayU",
+        "category": "PTC",
+        "payout": "BTC/ETH/USDT (TRC20/ERC20) etc",
+        "min_withdrawal": "low, crypto",
+        "speed_to_first_payout": "minutes once minimum reached; amounts are cents per day",
+        "link": "https://catptc.com/blog/ptc-sites-that-pay-instantly-2026",
+        "verification": "guide_claim_automatic_payouts; no independent proof",
+        "rank_speed": 13
+      },
+      {
+        "name": "PacketStream",
+        "category": "DePIN_bandwidth",
+        "payout": "PayPal $5 min (not crypto to Bitget)",
+        "min_withdrawal": "$5, 3% fee, processed within a week",
+        "speed_to_first_payout": "weeks at $0.10/GB; traffic-dependent",
+        "link": "https://jivaro.net/resources/share-internet-bandwidth-for-money/",
+        "verification": "checked_2026-10-31",
+        "rank_speed": 14
+      },
+      {
+        "name": "EarnFM",
+        "category": "DePIN_bandwidth",
+        "payout": "PayPal $15 min",
+        "min_withdrawal": "$15",
+        "speed_to_first_payout": "weeks-months at $0.20/GB; new Nov 2026",
+        "link": "https://pipennies.substack.com/p/how-to-set-up-a-raspberry-pi-to-earn",
+        "verification": "Pi_tester_Nov_2026_just_started",
+        "rank_speed": 15
+      },
+      {
+        "name": "MystNodes (Mysterium)",
+        "category": "DePIN_bandwidth",
+        "payout": "MYST tokens, no minimum, weekly auto payout",
+        "min_withdrawal": "none",
+        "speed_to_first_payout": "weekly, token value speculative",
+        "link": "https://wellkeptwallet.com/sell-bandwidth/",
+        "verification": "checked_Nov_2026",
+        "rank_speed": 16
+      },
+      {
+        "name": "LaborX / CryptoTask",
+        "category": "freelance_crypto",
+        "payout": "ETH/USDT/USDC (LaborX, 10% fee) / BTC/USDT/USDC (CryptoTask, 0-3% fee), escrow",
+        "min_withdrawal": "escrow per job",
+        "speed_to_first_payout": "weeks-months; trickle of jobs (~2 new posts/month, 14 jobs total in census); newest listings 19-20 Nov 2026",
+        "link": "https://usethebitcoin.com/guides/freelance-crypto-platforms/",
+        "verification": "checked_2026-11-24",
+        "rank_speed": 17
+      },
+      {
+        "name": "Zealy / Layer3 / TaskOn / Superboard",
+        "category": "quests",
+        "payout": "points / tokens / NFTs, varies per campaign",
+        "min_withdrawal": "per campaign",
+        "speed_to_first_payout": "weeks; mostly points not cash; Galxe closing pushes campaigns here",
+        "link": "https://flexe.io/blog/crypto-quest-platforms/",
+        "verification": "checked_11_Nov_2026",
+        "rank_speed": 18
+      },
+      {
+        "name": "Florin testnet raffle",
+        "category": "airdrop_testnet",
+        "payout": "$500 USDC raffle, $5 x 100 winners (Superboard campaign)",
+        "min_withdrawal": "raffle, not guaranteed",
+        "speed_to_first_payout": "campaign ends 13 Dec 2026; NO token/airdrop confirmed by Florin itself",
+        "link": "https://99airdrops.com/airdrops/florin/",
+        "verification": "campaign_verified_21_Nov_2026; airdrop_NOT_confirmed",
+        "rank_speed": 19
+      },
+      {
+        "name": "FLOP Network testnet",
+        "category": "airdrop_testnet",
+        "payout": "FLOP tokens, ~20% supply over 10 years (already known — see MEMORY, listed here only for status)",
+        "min_withdrawal": "testnet 90 days from 24 Nov 2026",
+        "speed_to_first_payout": "months; mainnet Q1 2027 target",
+        "link": "https://www.bitrue.com/blog/flop-network-public-testnet",
+        "verification": "already_known; launch 24 Nov 2026 tentative",
+        "rank_speed": 20
+      },
+      {
+        "name": "Golden Farm (Telegram)",
+        "category": "telegram_miniapp",
+        "payout": "TON/USDT, min $1",
+        "min_withdrawal": "$1 (1000 eggs)",
+        "speed_to_first_payout": "NOT FREE: 1 hen = $0.10 capital share — requires deposit to earn; do not use as free earning",
+        "link": "https://loungemedia.ru/golden-farm-telegram-mini-app-defi-game-review/",
+        "verification": "deposit_required_flagged",
+        "rank_speed": 99
+      },
+      {
+        "name": "MineSwap (Telegram)",
+        "category": "telegram_miniapp",
+        "payout": "GRAM token",
+        "min_withdrawal": "withdrawal after mining pools finish, terms not shown",
+        "speed_to_first_payout": "unknown/speculative; token value depends on operator",
+        "link": "https://egamers.io/games/mineswap/",
+        "verification": "live_20_Nov_2026; withdrawal_terms_unclear",
+        "rank_speed": 99
+      }
+    ],
+    "honest_summary": "Nothing here pays meaningful money in 10 minutes from zero. Fastest real cash is faucet micro-payments to FaucetPay (instant, cents) and Red Packet codes (minutes, ~$0.003, mostly claimed). FaucetPay SOL withdrawal to Bitget is blocked until ~28 Nov morning by the 24h cooldown + 5-payment rule. Agent bounties that actually paid (ShillBot $13 SOL, Frantic $7 USDC) need either Lean 4 skill or fast slot claims. The whole agent-bounty market paid ~$389 in 30 days across all boards (Nov 2026 census). Quest/airdrop/testnet payouts are weeks-months and mostly points/speculative."
+  }
 }

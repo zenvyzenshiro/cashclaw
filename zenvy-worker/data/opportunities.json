@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-11-27T00:24:32.688Z",
+  "generated_at": "2026-11-27T00:27:00Z",
   "mode": "dry-run",
   "spent_usd": 0,
   "submitted": 0,
+  "verified_samples_2026-11-27": {
+    "github_bounties_top5_recent": [
+      {"amount": "$250", "repo": "IES-BoilerRoom/ebpf-verifier-reg-bounds", "url": "https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/2", "payout_verified": false, "note": "Amount stated in title only; payment record not verified — do not work before per-issue verification."},
+      {"amount": "350 USDC", "repo": "IES-BoilerRoom/ebpf-verifier-reg-bounds", "url": "https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/1", "payout_verified": false, "note": "Amount stated in title only; payment record not verified."},
+      {"amount": "$200", "repo": "IES-BoilerRoom/nvme-zns-bch-ecc-simulator", "url": "https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/1", "payout_verified": false, "note": "Amount stated in title only; payment record not verified."},
+      {"amount": "$17", "repo": "IES-BoilerRoom/nvme-zns-bch-ecc-simulator", "url": "https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/2", "payout_verified": false, "note": "Amount stated in title only; payment record not verified."}
+    ],
+    "makefun_verified_live": {"slug": "news-image-20261126", "reward_usd": 100, "deadline": "2026-11-28T00:00:00.000Z", "submission_count": 12684, "sponsor_verified": true},
+    "superteam_earn_recheck": {"url": "https://earn.superteam.fun/", "http_status": 308, "note": "Redirect, not a direct 200; HTML page only, no JSON API verified."}
+  },
   "sources": [
     {
       "name": "make.fun",

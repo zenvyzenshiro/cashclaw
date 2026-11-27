@@ -1,40 +1,53 @@
 {
-  "generated_at": "2026-11-27T00:19:32.345Z",
+  "generated_at": "2026-11-27T00:24:32.688Z",
   "mode": "dry-run",
   "spent_usd": 0,
   "submitted": 0,
   "sources": [
     {
       "name": "make.fun",
+      "endpoint": "https://make.fun/api/competitions/<slug>",
       "account": "@zenvy-ch",
-      "note": "Entries already submitted under @zenvy-ch stay as-is. New submissions need the make.fun login/API key, which is valid until 19 Dec 2026, and user approval per competition.",
+      "note": "Public competition detail needs no API key. Account actions (submit, entry status) need the make.fun API key (valid until 19 Dec 2026) and user approval per competition — not used in dry-run. Entries already submitted under @zenvy-ch stay as-is.",
       "result": {
-        "reachable": false,
-        "status": null,
-        "error": "This operation was aborted"
+        "reachable": true,
+        "endpoint_verified": true,
+        "slug": "news-image-20261126",
+        "title": "Sum up 26 November's world news in one image",
+        "reward_usd": 100,
+        "deadline": "2026-11-28T00:00:00.000Z",
+        "submission_count": 12684
       }
     },
     {
       "name": "github-bounties",
+      "endpoint": "https://api.github.com/search/issues?q=label:bounty+state:open",
       "note": "Public issues labelled bounty. Real payout must be verified per issue (sponsor, amount, payment record) before any work.",
       "result": {
         "reachable": true,
+        "endpoint_verified": true,
         "total_count": 5410
       }
     },
     {
       "name": "superteam-earn",
-      "note": "Listings are public at earn.superteam.fun. No public JSON API used here; a dedicated adapter needs a verified endpoint and KYC/eligibility check per bounty before work. Not auto-claimed.",
+      "endpoint": "https://earn.superteam.fun/ (HTML page only)",
+      "note": "Listings page is public HTML (bounties + freelance gigs, Solana). No verified public JSON listings API — a dedicated adapter must verify an endpoint and KYC/eligibility per bounty before work. Not auto-claimed.",
       "result": {
-        "reachable": "not_checked_in_dry_run",
-        "reason": "no verified public JSON endpoint yet"
+        "reachable": true,
+        "endpoint_verified": true,
+        "page_bytes": 46800,
+        "mentions_bounties": true,
+        "json_api_verified": false
       }
     },
     {
       "name": "moltlaunch-cashclaw",
+      "endpoint": "moltlaunch API (via mltl CLI) — not used in dry-run",
       "note": "Upstream CashClaw is Base-only, needs the mltl CLI + an LLM API key + a spending wallet for AgentCash. None of those are enabled in dry-run. Integration status: not enabled.",
       "result": {
-        "reachable": "not_enabled_in_dry_run"
+        "reachable": "not_enabled_in_dry_run",
+        "endpoint_verified": false
       }
     }
   ]
